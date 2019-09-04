@@ -1,0 +1,12 @@
+version: 0.1
+log:
+  fields:
+    service: registry
+http:
+  addr: :5000
+  headers:
+    X-Content-Type-Options: [nosniff]
+proxy:
+  remoteurl: https://ninetypoe-docker.jfrog.io
+  username: rodion.sabodash
+  password: bubEaktP9ykdLcVM
